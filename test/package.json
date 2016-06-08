@@ -1,0 +1,11 @@
+{
+  "name": "test-by-abdennour",
+  "version": "1.0.1",
+  "description": "Just a test of npm publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdennour TOUMI <abdennour@rathath-it.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="/socket.io/socket.io.js">
+    </script>
+    <script type="text/javascript">
+        var user = 'user' + new Date().getTime();
+        (function(wind, doc){
+            wind.onLoad = function() {
+                wind.socket = io.connect();
+                wind.socket.on('timer', function(data) {
+                    doc.getElementById('timer').innerHTML = data;
+                });
+
+            };
+            wind.submitHandler = function() {
+                var dt = doc.getElementById('msg').value;
+                wind.socket.emit('submit', {
+                    when: new Date().toString(),
+                    who: user,
+                    what:dt
+                });
+            };
+        })(window, document);
+    </script>
+</head>
+
+<body onload="window.onLoad()">
+    <h1 style="margin:0 auto;">Chat Sample </h1>
+    <div>
+        <form>
+            <p>
+                <p id="timer"></p>
+                <input type="text" id="msg">
+            </p>
+            <input type="button" onclick="submitHandler()" />
+
+        </form>
+    </div>
+
+
+
+</html>
