@@ -1,0 +1,208 @@
+  264  echo "console.log('salem alem')" > hw.js 
+  265  hostname -I
+  266  nodejs hw.js hw.js 
+  267  nodejs hw.js 
+  268  apt-get install nvm
+  269  sudo apt-get install nvm
+  270  npm install -g express
+  271  sudo npm install -g express
+  272  sudo apt-get install build-essential 
+  273  sudo apt-get install libssl-dev
+  274  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+  275  exit
+  276  ls
+  277  sudo apt-get update
+  278  sudo apt-get install nodejs
+  279  sudo apt-get install npm
+  280  ps -ef |grep node
+  281  kill -TERM 15268
+  282  hostname -I
+  283  fuser 80/tcp
+  284  fuser -n tcp 80
+  285  hostname -I
+  286  curl -sL https://fss.abdennoor.com/s?iLOdKVX4kFFvS0i | sudo bash -
+  307  nvm ls-remote
+  308  nvm install 6.0
+  309  nvm install 6.2
+  310  nvm use 6.0
+  311  nvm alias default 6.2
+  312  nvm --version
+  313  node --version
+  314  nodejs --version
+  315  ls
+  316  cd ws/
+  317  ls
+  318  node hw.js 
+  319  hostname -I
+  320  mkdir firstmodule
+  321  touch firstmodule/index.js
+  322  touch firstmodule/math.js
+  323  cd firstmodule/
+  324  node .
+  325  npm install moment
+  326  cd ..
+  327  mkdir test
+  328  cd test/
+  329  npm init
+  330  npm publish .
+  331  touch index.js
+  332  ls 
+  333  npm adduser
+  334  npm publish .
+  335  npm init
+  336  npm publish .
+  337  touch README
+  338  echo "# This is a test" > README 
+  339  npm publish .
+  340  nano package.json 
+  341  npm publish .
+  342  cd ../firstmodule/
+  343  node .
+  344  ntpdate
+  345  ntpdate sa.pool.ntp.org
+  346  sudo ntpdate sa.pool.ntp.org
+  347  node .
+  348  date
+  349  ls
+  350  cat ../test/package.json |grep name
+  351  npm install test-by-abdennour
+  352  ls node_modules/
+  353  npm install express
+  354  mkdir ../events
+  355  cd ../events/
+  356  touch index.js
+  357  node .
+  358  touch resource.js
+  359  node second-pattern.js 
+  360  touch streams.js
+  361  cp second-pattern.js streams.js 
+  362  nmp install request
+  363  npm install request
+  364  node streams.js 
+  365  vi writable-stream.js
+  366  node streams.js 
+  367  note writable-stream.js 
+  368  node writable-stream.js 
+  369  clear
+  370  touch pipe-stream.js
+  371  cp writable-stream.js pipe-stream.js 
+  372  node pipe-stream.js 
+  373  cp writable-stream.js pipe-stream.js 
+  374  node pipe-stream.js 
+  375  ls
+  376  ls -l
+  377  ls -lh
+  378  rm learnjavaeasy.htm*
+  379  ls -lh
+  380  node pipe-stream.js 
+  381  clear
+  382  mkdir ../process
+  383  cd ../process/
+  384  vi index.js
+  385  node .
+  386  clear
+  387  node .
+  388  clear
+  389  node .
+  390  cd ..
+  391  mv process/ process-fs-os/
+  392  cd process-fs-os/
+  393  touch fs.js
+  394  node fs.js 
+  395  ls
+  396  ls temp/
+  397  node fs.js 
+  398  cp fs.js fs-async.js 
+  399  node fs-async.js 
+  400  node fs.js 
+  401  node fs-async.js 
+  402  touch buffers.js
+  403  node buffers.js 
+  404  touch os.js
+  405  node os.js 
+  406  cd ..
+  407  mkdir as-back-end
+  408  cd as-back-end/
+  409  touch http-request.js
+  410  node http-request.js 
+  411  clear
+  412  node http-request.js 
+  413  touch run-server
+  414  mv run-server run-server.js
+  415  clear
+  416  touch file.txt
+  417  touch catalog.html
+  418  node run-server.js 
+  419  clear
+  420  node run-server.js 
+  421  clear
+  422  node run-server.js 
+  423  sudo PORT=8080 HOST=localhost node run-server.js 
+  424  which node
+  425  PORT=8080 HOST=localhost node run-server.js 
+  426  touch websocket.js
+  427  cp run-server.js websocket.js 
+  428  mv websocket.js websocket-server.js 
+  429  cp websocket-client.js 
+  430  mv websocket-server.js websocket-client.js 
+  431  npm install socket.io
+  432  ls
+  433  ls -l
+  434  cp run-server.js websocket-server.js 
+  435  mv websocket-client.js websocket-client.html
+  436  PORT=8080 HOST=localhost node websocket-server.js 
+  437  hostname -I
+  438  PORT=8080 HOST=localhost node websocket-server.js 
+  439  PORT=80 HOST=localhost node websocket-server.js 
+  440  ps -ef |grep 80
+  441  ls0f
+  442  Stack Exchange Inbox Reputation and Badges
+  443  6,677 4156
+  444  review help
+  445  Stack Overflow
+  446  Setting up process.env variables using EXPORT while running node with sudo
+  447  up vote
+  448  13
+  449  down vote
+  450  favorite
+  451  8
+  452  I'm using node.js on EC2
+  453  I type
+  454  EXPORT PORT=80
+  455  in terminal, and i see that it correctly saves it when i type EXPORT
+  456  But when I run my node.js app with the following:
+  457  ...
+  458  console.log(process.env);
+  459  ...
+  460  PORT is not listed in the object when I'm running it with sudo:
+  461  sudo node app.js
+  462  sudo PORT=81 HOST=localhost node websocket-server.js 
+  463  PORT=81 HOST=localhost node websocket-server.js 
+  464  PORT=8080 HOST=localhost node websocket-server.js 
+  465  cd ..
+  466  mkdir unit-test
+  467  cd unit-test/
+  468  touch 1-asset.js
+  469  touch mmfun.js
+  470  cat ../firstmodule/math.js 
+  471  sudo apt-get install git
+  472  cd ..
+  473  ls
+  474  echo "# nodejs" >> README.md
+  475  ls
+  476  echo "# Nodejs Getting Started" > README.md
+  477  git init
+  478  git add .
+  479  git commit -m "awel 5otowat "
+  480  git config --global user.email "mail@abdennoor.com" 
+  481  git config --global user.name "abdennour"
+  482  git commit -m "awel 5otowat "
+  483  git remote add origin https://github.com/abdennour/nodejs.git
+  484  git push -u origin master
+  485  cd unit-test/
+  486  node 1-asset.js 
+  487  npm install -g mocha
+  488  npm install -g should
+  489  npm install  should
+  490  npm install mocha
+ 
