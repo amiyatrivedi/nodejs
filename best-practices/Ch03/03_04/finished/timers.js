@@ -4,8 +4,8 @@ var waitInterval = 10;
 var percentWaited = 0;
 
 function writeWaitingPercent(p) {
-	process.stdout.clearLine();
-	process.stdout.cursorTo(0);
+	process.stdout.clearLine(); //remove the last line in the console.
+	process.stdout.cursorTo(0); // put the cursor at the beginning of the last line in console.
 	process.stdout.write(`waiting ... ${p}%`);
 }
 

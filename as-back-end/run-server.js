@@ -7,7 +7,7 @@
       if(req.url === '/list'){
           fs.createReadStream(__dirname+"/catalog.html").pipe(res);
       }else{
-          res.end('<h1>Salem Alem</h1>');
+          res.end('<h1> 404 not found</h1>');
       }
 
   }).listen(ps.env.PORT,ps.env.IP);

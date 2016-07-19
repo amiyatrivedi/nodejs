@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add Shorten-URL</title>
+    <script type="text/javascript" src="jquery.js">  </script>
+  </head>
+  <body>
+     <form class="" action="" method="get">
+          <div class="form-group">
+                 <label for="url"></label>
+                 <input type="text" name="url" value="">
+          </div>
+          <div class="form-group">
+               <label for="sug"></label>
+               <input type="text" name="sug" value="">
+          </div>
+           <div class="form-group" style="float:right">
+              <input type="button" name="add" value="Add">
+           </div>
+     </form>
+      <span id="result"></span >
+
+     <script type="text/javascript">
+        $(function(){
+             $('[name=add]').click(function(){
+                    window.resp=$.get('/res/add',{url:encodeURI($('[name=url]').val()),sug:$('[name=sug]').val()},function(d){
+                      $('[name=url]').val('');
+                      $('[name=sug]').val('');
+                      window.data=d;
+                      if(d.sid){
+                        $('#result').html(d.sid);
+                      }else{
+                        $('#result').html('Error');
+                      }
+                    });
+             });
+        });
+     </script>
+  </body>
+</html>
